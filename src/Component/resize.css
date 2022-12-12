@@ -1,0 +1,105 @@
+.holder {
+    float: left;
+    clear: left;
+    position: relative;
+    margin: 20px;
+    width: 200px;
+
+
+}
+
+
+
+.regular:nth-child(1) {
+    top: 5px;
+    left: 5px;
+    width: 190px;
+    height: 120px;
+
+}
+
+.previewHeader {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+
+
+
+}
+
+.n,
+.s,
+.w,
+.e,
+.nw,
+.ne,
+.se,
+.sw {
+
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    
+    border-radius: 50px;
+
+}
+
+.n:hover,
+.s:hover,
+.w:hover,
+.e:hover,
+.nw:hover,
+.ne:hover,
+.se:hover,
+.sw:hover {
+    background-color: darkblue;
+}
+
+.nw {
+    top: -10px;
+    left: -10px;
+    cursor: nw-resize;
+}
+
+.ne {
+ 
+    top: -10px;
+    left: calc(100% - 10px);
+    cursor: ne-resize;
+}
+
+.sw {
+    top: calc(100% - 10px);
+    left: -10px;
+    cursor: sw-resize;
+}
+
+.se {
+    top: calc(100% - 10px);
+    left: calc(100% - 10px);
+    cursor: se-resize;
+}
+
+.n {
+    top: -10px;
+    left: calc(50% - 10px);
+    cursor: n-resize;
+}
+
+.w {
+    top: calc(50% - 10px);
+    left: -10px;
+    cursor: w-resize;
+}
+
+.e {
+    top: calc(50% - 10px);
+    left: calc(100% - 10px);
+    cursor: e-resize;
+}
+
+.s {
+    top: calc(100% - 10px);
+    left: calc(50% - 10px);
+    cursor: s-resize;
+}

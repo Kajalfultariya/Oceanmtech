@@ -1,0 +1,36 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+
+#app {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #cccccc;
+}
+
+#app::before {
+  position: absolute;
+  content: "";
+  left: 50%;
+  top: calc(-50% + 5px);
+  bottom: 100%;
+  width: 1px;
+  background-color: cornflowerblue;
+  transform: translateX(-50%);
+}
+
+#rotate-controller {
+  position: absolute;
+  left: 50%;
+  top: -50%;
+  transform: translate(-50%, -50%);
+  width: 10px;
+  height: 10px;
+  border: 1px solid #cccccc;
+  border-radius: 50%;
+  cursor: alias;
+}

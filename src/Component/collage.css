@@ -1,0 +1,362 @@
+.main-div {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-gap: 10px;
+    height: calc(10vh - 10px);
+    width: calc(120vh - 10px);
+    grid-template-areas:
+        "head1 head1 head1 head1"
+        "side1 main1 main1 main1"
+
+}
+
+.main-div>div {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.head1 {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px 0;
+    grid-area: head1;
+    padding: 40px;
+
+}
+
+.side1 {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px 0;
+    grid-area: side1;
+}
+
+
+.main1 {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px 0;
+    grid-area: main1;
+}
+
+/* Big Collage */
+.grid-ex-52 {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-gap: 10px;
+    height: calc(60vh - 10px);
+    width: calc(70vh - 10px);
+    grid-template-areas:
+        "head head main main"
+        "side side main main"
+        "ads ads main main"
+        "foot foot foot foot";
+}
+
+.grid-ex-52>div {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.head2 {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px 0;
+    grid-area: head;
+    padding: 40px;
+
+}
+
+.side2 {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px 0;
+    grid-area: side;
+}
+
+.ads2 {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px 0;
+    grid-area: ads;
+}
+
+.main2 {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px 0;
+    grid-area: main;
+}
+
+.foot2 {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px 0;
+    grid-area: foot;
+}
+
+.grid-ex-42 {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-gap: 10px;
+    height: calc(60vh - 10px);
+    width: calc(70vh - 10px);
+    grid-template-areas:
+        "side42 side42 head42 head42"
+        "side42 side42 main42 main42"
+        "side42 side42 main42 main42"
+        "foot42 foot42 main42 main42";
+}
+
+.grid-ex-42>div {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.head42 {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px 0;
+    grid-area: head42;
+    padding: 40px;
+
+}
+
+.side42 {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px 0;
+    grid-area: side42;
+}
+
+.main42 {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px 0;
+    grid-area: main42;
+}
+
+.foot42 {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px 0;
+    grid-area: foot42;
+}
+
+
+.grid-ex-32 {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-gap: 10px;
+    height: calc(60vh - 10px);
+    width: calc(70vh - 10px);
+    grid-template-areas:
+        "side32 side32 head32 head32"
+        "side32 side32 head32 head32"
+        "side32 side32 main32 main32"
+        "side32 side32 main32 main32";
+}
+
+.grid-ex-32>div {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.head32 {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px 0;
+    grid-area: head32;
+    padding: 40px;
+
+}
+
+.side32 {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px 0;
+    grid-area: side32;
+}
+
+.main32 {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px 0;
+    grid-area: main32;
+}
+
+.grid-ex-222 {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-gap: 10px;
+    height: calc(60vh - 10px);
+    width: calc(70vh - 10px);
+    grid-template-areas:
+        "side222  main222  main222 main222"
+        "side222  main222  main222  main222 "
+        "side222  main222  main222  main222 "
+        "side222  main222 main222 main222";
+}
+
+.grid-ex-222>div {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.head222 {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px 0;
+    grid-area: head222;
+    padding: 40px;
+
+}
+
+.side222 {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px 0;
+    grid-area: side222;
+}
+
+.main222 {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px 0;
+    grid-area: main222;
+}
+
+/* five grid area */
+.grid-ex-5 {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-gap: 10px;
+    height: calc(30vh - 10px);
+    width: calc(35vh - 10px);
+    grid-template-areas:
+        "head head main main"
+        "side side main main"
+        "ads ads main main"
+        "foot foot foot foot";
+}
+
+.grid-ex-5>div {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.head {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px 0;
+    grid-area: head;
+    padding: 40px;
+
+}
+
+.side {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px 0;
+    grid-area: side;
+}
+
+.ads {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px 0;
+    grid-area: ads;
+}
+
+.main {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px 0;
+    grid-area: main;
+}
+
+.foot {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px 0;
+    grid-area: foot;
+}
+
+
+/* four grid area */
+.grid-ex-4 {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-gap: 10px;
+    height: calc(30vh - 10px);
+    width: calc(35vh - 10px);
+    grid-template-areas:
+        "side4 side4 head4 head4"
+        "side4 side4 main4 main4"
+        "side4 side4 main4 main4"
+        "foot4 foot4 main4 main4";
+}
+
+.grid-ex-4>div {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.head4 {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px 0;
+    grid-area: head4;
+    padding: 40px;
+
+}
+
+.side4 {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px 0;
+    grid-area: side4;
+}
+
+.main4 {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px 0;
+    grid-area: main4;
+}
+
+.foot4 {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px 0;
+    grid-area: foot4;
+}
+
+
+/* three grid area */
+.grid-ex-3 {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-gap: 10px;
+    height: calc(30vh - 10px);
+    width: calc(35vh - 10px);
+    grid-template-areas:
+        "side3 side3 head3 head3"
+        "side3 side3 head3 head3"
+        "side3 side3 main3 main3"
+        "side3 side3 main3 main3";
+}
+
+.grid-ex-3>div {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.head3 {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px 0;
+    grid-area: head3;
+    padding: 40px;
+
+}
+
+.side3 {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px 0;
+    grid-area: side3;
+}
+
+.main3 {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px 0;
+    grid-area: main3;
+}
+
+
+/* two grid area */
+.grid-ex-22 {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr;
+    grid-gap: 10px;
+    height: calc(30vh - 10px);
+    width: calc(35vh - 10px);
+    grid-template-areas:
+        "side22 main22 main22 main22"
+        "side22 main22 main22 main22"
+        "side22 main22 main22 main22"
+        "side22 main22 main22 main22";
+}
+
+.grid-ex-22>div {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px 0;
+    padding: 10px;
+    text-align: center;
+}
+
+.head22 {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px 0;
+    grid-area: head22;
+    padding: 40px;
+
+}
+
+.side22 {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px 0;
+    grid-area: side22;
+}
+
+.main22 {
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 10px 0;
+    grid-area: main22;
+}
